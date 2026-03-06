@@ -485,21 +485,21 @@ seek_combat.00001 = { # Pre-engagement decision event - fires on attacker when i
 
 		# Prowess-based chance to reach the defender
 		if = {
-			limit = { prowess <= 20 }
+			limit = { prowess <= 10 }
 			random = {
 				chance = 20
 				scope:seek_combat_defender = { trigger_event = seek_combat.00011 }
 			}
 		}
 		else_if = {
-			limit = { prowess <= 30 }
+			limit = { prowess <= 15 }
 			random = {
 				chance = 30
 				scope:seek_combat_defender = { trigger_event = seek_combat.00011 }
 			}
 		}
 		else_if = {
-			limit = { prowess <= 40 }
+			limit = { prowess <= 20 }
 			random = {
 				chance = 40
 				scope:seek_combat_defender = { trigger_event = seek_combat.00011 }
