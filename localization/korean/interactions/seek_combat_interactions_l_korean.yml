@@ -1,0 +1,79 @@
+﻿l_korean:
+
+interaction_category_freeholdrp:0 "#difficulty_hard Freehold Interactions#"
+AGOT_FREEHOLD_ACTIONS:0 "Freehold Interactions"
+
+
+
+
+
+##전장 결투/탐색 전투
+seek_combat.00011.t:0 "전장 결투"
+seek_combat.00011.desc:0 "피에 젖은 전장을 훑어보던 중 적의 군복을 입은 모습이 눈에 들어왔고, 그의 깃발이 바람에 반항적으로 펄럭였다. 시선이 마주치자 우리 사이의 거리가 좁아지는 것 같았고, 이제 이 잔혹한 전쟁의 춤 속에 우리의 운명이 얽혀 있다는 사실을 깨닫고 나는 내 혈관을 통해 결의가 솟아오르는 것을 느꼈다."
+seek_combat.00011.a:0 "대형을 유지하고 수행원과 Sworn shield를 모아 이 적에 맞서라."
+seek_combat.00011.b:0 "나는 일대일 전투로 그들을 만날 것이다."
+
+
+seek_combat.0001.t:0 "전장 결투"
+seek_combat.0001.desc:0 "천둥같은 충돌과 죽어가는 사람들의 비명 속에서 당신의 시선은 적을 향한다. 전장은 혼돈의 소용돌이이자 피와 강철이 난무하는 바다이다. 그러나 그 순간, 기회는 덧없는 그림자처럼 깜빡인다. 어쩌면 아마도 당신은 군중 사이로 길을 개척하여 그들 앞에 설 때까지 그들의 부하들을 하나씩 베어버릴 수도 있을 것이다. 위험은 엄청나며 삶과 죽음이 걸린 문제이지만 아마도 이 위험을 감수할 만한 가치가 있을 것이다."
+seek_combat.0001.a:0 "공격하라!"
+seek_combat.0001.b:0 "대형을 유지하라. 위험을 감수할 가치가 없다."
+
+
+seek_combat.0002.t:0 "전장 결투"
+seek_combat.0002.desc:0 "지독한 투쟁 끝에 당신은 적과 눈에 띄는 거리에 있다는 것을 알게 되었다. 이마에 땀과 피가 뒤섞이고, 노력으로 인해 숨이 거칠어졌다. 승리가 코앞에 다가왔고 최후의 일격이 거의 손에 잡히게 되었다. 그에게 다가가려면 먼저 남은 동료를 모두 처치해야 한다."
+seek_combat.0002a.desc:0 "\n Attackers: \n #bold[seek_combat_attacker.GetFullName] #"
+seek_combat.00021a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_1.GetFullName]#"
+seek_combat.00022a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_2.GetFullName]#"
+seek_combat.00023a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_3.GetFullName]#"
+seek_combat.00024a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_4.GetFullName]#"
+seek_combat.00025a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_5.GetFullName]#"
+seek_combat.00026a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_6.GetFullName]#"
+seek_combat.00027a.desc:0 "\n #bold[seek_combat_attacker_bodyguard_7.GetFullName]#"
+
+seek_combat.0002_dead.desc:0 "#N DEAD#! "
+
+seek_combat.0002d.desc:0 "\n Defenders: \n #bold[seek_combat_defender.GetFullName]#"
+seek_combat.00021d.desc:0 "\n #bold[seek_combat_defender_bodyguard_1.GetFullName]#"
+seek_combat.00022d.desc:0 "\n #bold[seek_combat_defender_bodyguard_2.GetFullName]#"
+seek_combat.00023d.desc:0 "\n #bold[seek_combat_defender_bodyguard_3.GetFullName]#"
+seek_combat.00024d.desc:0 "\n #bold[seek_combat_defender_bodyguard_4.GetFullName]#"
+seek_combat.00025d.desc:0 "\n #bold[seek_combat_defender_bodyguard_5.GetFullName]#"
+seek_combat.00026d.desc:0 "\n #bold[seek_combat_defender_bodyguard_6.GetFullName]#"
+seek_combat.00027d.desc:0 "\n #bold[seek_combat_defender_bodyguard_7.GetFullName]#"
+
+seek_combat.0002.a:0 "내가 그들을 처치할 것이다"
+seek_combat.0002.a1:0 "당신은 단일 전투에서 상대를 죽입니다."
+seek_combat.0002.a2:0 "당신은 살해당했습니다."
+seek_combat.0002.b:0 "당신의 Sworn shield를 보내십시오."
+
+
+seek_combat.00021.t:0 "전장 결투"
+seek_combat.00021.desc:0 "우리의 노력은 소용이 없었고 나는 적진을 무너뜨릴 수도, 적에게 도전할 수도 없었다."
+seek_combat.00021.a:0 "..."
+
+
+
+seek_combat.0003.t:0 "전장 결투"
+seek_combat.0003.desc:0 "당신은 쓰러진 적 위에 서서 승리의 무게를 어깨에 짊었습니다. 승리는 당신의 것입니다."
+seek_combat.0003.a:0 "이겼다."
+
+
+seek_combat.0005.t:0 "전장 결투"
+seek_combat.0005.desc:0 "현장에서 당신에게 도전할 수 있다고 생각한 바보를 눕히기도 전에. 하!"
+seek_combat.0005.a:0 "승리!"
+
+
+seek_combat.0006.t:0 "전장 결투"
+seek_combat.0006.desc:0 "Across the field you spot an enemy. He is making a push towards you, undoubtedly to challenge you in single combat."
+seek_combat.0006.a:0 "군인들을 강화하라! 대형을 유지하라!"
+
+seek_combat.0008.t:0 "전장 결투"
+seek_combat.0008.desc:0 "천둥같은 충돌과 죽어가는 사람들의 비명 속에서 당신의 시선은 적을 향한다. 전장은 혼돈의 소용돌이이자 피와 강철이 난무하는 바다이다. 그러나 그 순간, 기회는 덧없는 그림자처럼 깜빡인다. 어쩌면 아마도 당신은 군중 사이로 길을 개척하여 그들 앞에 설 때까지 그들의 부하들을 하나씩 베어버릴 수도 있을 것이다. 위험은 엄청나며 삶과 죽음이 걸린 문제이지만 아마도 이 위험을 감수할 만한 가치가 있을 것이다."
+seek_combat.0008.a:0 "너의 길은 여기에서 끝이다"
+seek_combat.0008.b:0 "그를 사슬로 묶어라."
+seek_combat.0008.c:0 "마에스터! 그들의 상처를 살펴라."
+
+seek_combat_interaction:0 "#R 전장 결투# "
+
+seek_combat_interaction_desc:0 "그들의 부하들을 뚫고 단일 전투에서 그들과 맞서세요."
