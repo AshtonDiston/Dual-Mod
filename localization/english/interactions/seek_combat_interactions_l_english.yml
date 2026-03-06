@@ -9,7 +9,7 @@
   
   ##Battlefield Duel/Seek Combat
  seek_combat.00001.t:0 "The Battle of [battle_location.GetNameNoTooltip]"
- seek_combat.00001.desc:0 "Amidst the thunderous clash and cries of dying men, your gaze falls upon #bold[seek_combat_defender.GetFullName]#!. You feel the urge to cut your way through the chaos and challenge them directly.\n\nYour chance of reaching them depends on your martial skill:\n\n #bold Prowess 1-20:#! 20% chance of engagement\n #bold Prowess 21-30:#! 30% chance of engagement\n #bold Prowess 31-40:#! 40% chance of engagement\n #bold Prowess 41+:#! 50% chance of engagement\n\nIf you fail to break through, nothing happens but a 30-day cooldown. If you succeed, the fight begins. If you back out, there is no cooldown."
+ seek_combat.00001.desc:0 "Amidst the thunderous clash and cries of dying men, your gaze falls upon #bold[seek_combat_defender.GetFullName]#!. You feel the urge to cut your way through the chaos and challenge them directly.\n\nYour chance of reaching them depends on your martial skill:\n\n #bold Prowess 1-10:#! 20% chance of engagement\n #bold Prowess 11-15:#! 30% chance of engagement\n #bold Prowess 16-20:#! 40% chance of engagement\n #bold Prowess 21+:#! 50% chance of engagement\n\nIf you fail to break through, nothing happens but a 30-day cooldown. If you succeed, the fight begins. If you back out, there is no cooldown."
  seek_combat.00001.a:0 "Cut through their men and engage! (30-day cooldown on attempt)"
  seek_combat.00001.b:0 "Hold formation. This is not worth the risk."
   
