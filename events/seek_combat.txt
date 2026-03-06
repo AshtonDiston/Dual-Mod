@@ -624,7 +624,7 @@ seek_combat.0001 = { # Use comments (like this one!) to put the event name here,
 					scope:seek_combat_attacker = {
 				
 							increase_wounds_effect = { REASON = battle }
-							root = { add_prestige = minor_prestige_loss }
+							add_prestige = minor_prestige_loss
 					trigger_event = seek_combat.00021 
 				 
 			}
@@ -633,28 +633,32 @@ seek_combat.0001 = { # Use comments (like this one!) to put the event name here,
 				#show_chance = no
 				desc = "You are captured in your attempt to challenge your foe"
 				if = { limit = { scope:seek_combat_defender = { is_landed = yes } }
-						rightfully_imprison_character_less_verbose_effect = {
-														TARGET = scope:seek_combat_attacker
-														IMPRISONER = scope:seek_combat_defender
-													}
-													rightfully_imprison_character_less_verbose_effect = {
-														TARGET = scope:seek_combat_attacker_bodyguard_1
-														IMPRISONER = scope:seek_combat_defender
-													}
-													}
-													else = { 
-															scope:seek_combat_defender = { liege = { save_scope_as = seek_combat_defender_liege } }
-															rightfully_imprison_character_less_verbose_effect = {
-														TARGET = scope:seek_combat_attacker
-														IMPRISONER = scope:seek_combat_defender_liege
-													}
-													rightfully_imprison_character_less_verbose_effect = {
-														TARGET = scope:seek_combat_attacker_bodyguard_1
-														IMPRISONER = scope:seek_combat_defender_liege
-													}
-													}
-															
-				
+					rightfully_imprison_character_less_verbose_effect = {
+						TARGET = scope:seek_combat_attacker
+						IMPRISONER = scope:seek_combat_defender
+					}
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_1 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_1 IMPRISONER = scope:seek_combat_defender } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_2 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_2 IMPRISONER = scope:seek_combat_defender } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_3 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_3 IMPRISONER = scope:seek_combat_defender } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_4 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_4 IMPRISONER = scope:seek_combat_defender } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_5 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_5 IMPRISONER = scope:seek_combat_defender } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_6 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_6 IMPRISONER = scope:seek_combat_defender } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_7 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_7 IMPRISONER = scope:seek_combat_defender } }
+				}
+				else = {
+					scope:seek_combat_defender = { liege = { save_scope_as = seek_combat_defender_liege } }
+					rightfully_imprison_character_less_verbose_effect = {
+						TARGET = scope:seek_combat_attacker
+						IMPRISONER = scope:seek_combat_defender_liege
+					}
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_1 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_1 IMPRISONER = scope:seek_combat_defender_liege } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_2 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_2 IMPRISONER = scope:seek_combat_defender_liege } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_3 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_3 IMPRISONER = scope:seek_combat_defender_liege } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_4 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_4 IMPRISONER = scope:seek_combat_defender_liege } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_5 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_5 IMPRISONER = scope:seek_combat_defender_liege } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_6 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_6 IMPRISONER = scope:seek_combat_defender_liege } }
+					if = { limit = { exists = scope:seek_combat_attacker_bodyguard_7 } rightfully_imprison_character_less_verbose_effect = { TARGET = scope:seek_combat_attacker_bodyguard_7 IMPRISONER = scope:seek_combat_defender_liege } }
+				}
 			}
 			5 = {
 				#show_chance = no
@@ -1160,18 +1164,18 @@ seek_combat.00021 = {
 	}
 		left_portrait = {
 		character = scope:seek_combat_attacker
-		scripted_animation = celebrate_sword
+		scripted_animation = fear
 	}
 	right_portrait = {
 		character = scope:seek_combat_defender
-		scripted_animation = fear
+		scripted_animation = celebrate_sword
 	}
 	lower_right_portrait = {
-		character = scope:seek_combat_defender_bodyguard
+		character = scope:seek_combat_defender_bodyguard_1
 		scripted_animation = marshal
 	}
 	lower_left_portrait = {
-		character = scope:seek_combat_attacker_bodyguard
+		character = scope:seek_combat_attacker_bodyguard_1
 		scripted_animation = marshal
 	}
 	
@@ -1224,11 +1228,11 @@ seek_combat.0003 = {
 		scripted_animation = fear
 	}
 	lower_right_portrait = {
-		character = scope:seek_combat_defender_bodyguard
+		character = scope:seek_combat_defender_bodyguard_1
 		scripted_animation = marshal
 	}
 	lower_left_portrait = {
-		character = scope:seek_combat_attacker_bodyguard
+		character = scope:seek_combat_attacker_bodyguard_1
 		scripted_animation = marshal
 	}
 	
@@ -1264,45 +1268,6 @@ seek_combat.0003 = {
 
 
 
-seek_combat.0004 = {
-	type = character_event
-	hidden = false
-	title = seek_combat.0002.t
-	desc =seek_combat.0002.desc
-	theme = battle
-	override_background = {
-		reference = terrain
-	}
-	left_portrait = {
-		character = scope:seek_combat_attacker
-		scripted_animation = duel_wield_weapon
-	}
-	right_portrait = {
-		character = scope:seek_combat_defender
-		scripted_animation = duel_wield_weapon
-	}
-	lower_right_portrait = {
-		character = scope:seek_combat_defender_bodyguard
-		scripted_animation = duel_wield_weapon
-	}
-	lower_left_portrait = {
-		character = scope:seek_combat_attacker_bodyguard
-		scripted_animation = duel_wield_weapon
-	}
-
-
-	immediate = {
-	
-	
-		
-	}
-
-	
-	
-	
-	
-	
-}
 
 
 ### Notify Defender of Victory
@@ -1325,11 +1290,11 @@ seek_combat.0005 = {
 		scripted_animation = celebrate_sword
 	}
 	lower_right_portrait = {
-		character = scope:seek_combat_defender_bodyguard
+		character = scope:seek_combat_defender_bodyguard_1
 		scripted_animation = marshal
 	}
 	lower_left_portrait = {
-		character = scope:seek_combat_attacker_bodyguard
+		character = scope:seek_combat_attacker_bodyguard_1
 		scripted_animation = marshal
 	}
 	
@@ -1382,11 +1347,11 @@ seek_combat.0006 = {
 		scripted_animation = duel_wield_weapon
 	}
 	lower_right_portrait = {
-		character = scope:seek_combat_defender_bodyguard
+		character = scope:seek_combat_defender_bodyguard_1
 		scripted_animation = marshal
 	}
 	lower_left_portrait = {
-		character = scope:seek_combat_attacker_bodyguard
+		character = scope:seek_combat_attacker_bodyguard_1
 		scripted_animation = marshal
 	}
 	
@@ -1590,7 +1555,7 @@ seek_combat.0009 = {
 				add = 1
 			}
 			modifier = {
-				ai_compassion <= -0
+				ai_compassion <= 0
 				add = 1
 			}
 			modifier = {
@@ -1610,15 +1575,15 @@ seek_combat.0009 = {
 				add = 1
 			}
 			modifier = {
-				opinion = { target = scope:sc_loser value <= -0.5 }
+				opinion = { target = scope:sc_loser value <= -25 }
 				add = 1
 			}
 			modifier = {
-				opinion = { target = scope:sc_loser value <= -0.75 }
+				opinion = { target = scope:sc_loser value <= -50 }
 				add = 1
 			}
 			modifier = {
-				opinion = { target = scope:sc_loser value <= -1 }
+				opinion = { target = scope:sc_loser value <= -75 }
 				add = 1
 			}
 			modifier = {
@@ -1752,11 +1717,11 @@ seek_combat.0010 = {
 		scripted_animation = duel_wield_weapon
 	}
 	lower_right_portrait = {
-		character = scope:seek_combat_defender_bodyguard
+		character = scope:seek_combat_defender_bodyguard_1
 		scripted_animation = marshal
 	}
 	lower_left_portrait = {
-		character = scope:seek_combat_attacker_bodyguard
+		character = scope:seek_combat_attacker_bodyguard_1
 		scripted_animation = marshal
 	}
 	

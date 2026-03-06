@@ -223,11 +223,6 @@ seek_combat_interaction = {
 			limit = {
 				NOR = { this = scope:seek_combat_defender_bodyguard_1
 						this = scope:seek_combat_defender_bodyguard_2
-						this = scope:seek_combat_defender_bodyguard_3
-						this = scope:seek_combat_defender_bodyguard_4
-						this = scope:seek_combat_defender_bodyguard_5
-						this = scope:seek_combat_defender_bodyguard_6
-						this = scope:seek_combat_defender_bodyguard_7
 							}
 				is_in_army = yes   
 				NOT = { has_trait = dragonrider }
@@ -247,10 +242,6 @@ seek_combat_interaction = {
 				NOR = { this = scope:seek_combat_defender_bodyguard_1
 						this = scope:seek_combat_defender_bodyguard_2
 						this = scope:seek_combat_defender_bodyguard_3
-						this = scope:seek_combat_defender_bodyguard_4
-						this = scope:seek_combat_defender_bodyguard_5
-						this = scope:seek_combat_defender_bodyguard_6
-						this = scope:seek_combat_defender_bodyguard_7
 							}
 				is_in_army = yes   
 				NOT = { has_trait = dragonrider }
@@ -271,9 +262,6 @@ seek_combat_interaction = {
 						this = scope:seek_combat_defender_bodyguard_2
 						this = scope:seek_combat_defender_bodyguard_3
 						this = scope:seek_combat_defender_bodyguard_4
-						this = scope:seek_combat_defender_bodyguard_5
-						this = scope:seek_combat_defender_bodyguard_6
-						this = scope:seek_combat_defender_bodyguard_7
 							}
 				is_in_army = yes   
 				NOT = { has_trait = dragonrider }
@@ -295,8 +283,6 @@ seek_combat_interaction = {
 						this = scope:seek_combat_defender_bodyguard_3
 						this = scope:seek_combat_defender_bodyguard_4
 						this = scope:seek_combat_defender_bodyguard_5
-						this = scope:seek_combat_defender_bodyguard_6
-						this = scope:seek_combat_defender_bodyguard_7
 							}
 				is_in_army = yes   
 				NOT = { has_trait = dragonrider }
@@ -320,7 +306,6 @@ seek_combat_interaction = {
 						this = scope:seek_combat_defender_bodyguard_4
 						this = scope:seek_combat_defender_bodyguard_5
 						this = scope:seek_combat_defender_bodyguard_6
-						this = scope:seek_combat_defender_bodyguard_7
 							}
 				is_in_army = yes   
 				NOT = { has_trait = dragonrider }
@@ -357,12 +342,6 @@ seek_combat_interaction = {
 			type = bodyguard_court_position
 			limit = {
 				NOR = { this = scope:seek_combat_defender_bodyguard_1
-						 this = scope:seek_combat_defender_bodyguard_2
-						 this = scope:seek_combat_defender_bodyguard_3
-						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes   
@@ -381,11 +360,6 @@ seek_combat_interaction = {
 			limit = {
 				NOR = { this = scope:seek_combat_defender_bodyguard_1
 						 this = scope:seek_combat_defender_bodyguard_2
-						 this = scope:seek_combat_defender_bodyguard_3
-						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes   
@@ -405,10 +379,6 @@ seek_combat_interaction = {
 				NOR = { this = scope:seek_combat_defender_bodyguard_1
 						 this = scope:seek_combat_defender_bodyguard_2
 						 this = scope:seek_combat_defender_bodyguard_3
-						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes  
@@ -429,9 +399,6 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_defender_bodyguard_2
 						 this = scope:seek_combat_defender_bodyguard_3
 						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes  
@@ -453,8 +420,6 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_defender_bodyguard_3
 						 this = scope:seek_combat_defender_bodyguard_4
 						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes  
@@ -478,7 +443,6 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_defender_bodyguard_4
 						 this = scope:seek_combat_defender_bodyguard_5
 						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes 
@@ -527,12 +491,6 @@ seek_combat_interaction = {
 				NOR = {
 						 this = scope:seek_combat_defender
 						 this = scope:seek_combat_defender_bodyguard_1
-						 this = scope:seek_combat_defender_bodyguard_2
-						 this = scope:seek_combat_defender_bodyguard_3
-						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes   
@@ -553,11 +511,6 @@ seek_combat_interaction = {
 							this = scope:seek_combat_defender
 							this = scope:seek_combat_defender_bodyguard_1
 						 this = scope:seek_combat_defender_bodyguard_2
-						 this = scope:seek_combat_defender_bodyguard_3
-						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes  
@@ -579,10 +532,6 @@ seek_combat_interaction = {
 							this = scope:seek_combat_defender_bodyguard_1
 						 this = scope:seek_combat_defender_bodyguard_2
 						 this = scope:seek_combat_defender_bodyguard_3
-						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes   
@@ -605,9 +554,6 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_defender_bodyguard_2
 						 this = scope:seek_combat_defender_bodyguard_3
 						 this = scope:seek_combat_defender_bodyguard_4
-						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes 
@@ -631,8 +577,6 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_defender_bodyguard_3
 						 this = scope:seek_combat_defender_bodyguard_4
 						 this = scope:seek_combat_defender_bodyguard_5
-						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes  
@@ -658,7 +602,6 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_defender_bodyguard_4
 						 this = scope:seek_combat_defender_bodyguard_5
 						 this = scope:seek_combat_defender_bodyguard_6
-						 this = scope:seek_combat_defender_bodyguard_7
 																		
 																		}
 				is_in_army = yes  
@@ -701,7 +644,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes  
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -719,7 +662,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes   
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -737,7 +680,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes   
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -756,7 +699,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes   
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -773,7 +716,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes  
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -791,7 +734,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes  
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -809,7 +752,7 @@ seek_combat_interaction = {
 					AND = {
 					is_in_army = yes  
 					NOT = { has_trait = dragonrider }
-					is_at_same_location = scope:recipient
+					is_at_same_location = scope:actor
 							}
 				}
 				add_to_list = duel_observers
@@ -825,7 +768,7 @@ seek_combat_interaction = {
 			limit = {
 				is_in_army = yes 
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers
@@ -840,7 +783,7 @@ seek_combat_interaction = {
 				NOT = { this = scope:seek_combat_attacker_bodyguard_1 }
 				is_in_army = yes 
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers
@@ -854,15 +797,10 @@ seek_combat_interaction = {
 			limit = {
 				NOR = { this = scope:seek_combat_attacker_bodyguard_1
 						 this = scope:seek_combat_attacker_bodyguard_2
-						 this = scope:seek_combat_attacker_bodyguard_3
-						 this = scope:seek_combat_attacker_bodyguard_4
-						 this = scope:seek_combat_attacker_bodyguard_5
-						 this = scope:seek_combat_attacker_bodyguard_6
-						 this = scope:seek_combat_attacker_bodyguard_7
 				}
 				is_in_army = yes   
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers
@@ -877,14 +815,10 @@ seek_combat_interaction = {
 				NOR = { this = scope:seek_combat_attacker_bodyguard_1
 						 this = scope:seek_combat_attacker_bodyguard_2
 						 this = scope:seek_combat_attacker_bodyguard_3
-						 this = scope:seek_combat_attacker_bodyguard_4
-						 this = scope:seek_combat_attacker_bodyguard_5
-						 this = scope:seek_combat_attacker_bodyguard_6
-						 this = scope:seek_combat_attacker_bodyguard_7
 				}
 				is_in_army = yes  
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers
@@ -900,13 +834,10 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_attacker_bodyguard_2
 						 this = scope:seek_combat_attacker_bodyguard_3
 						 this = scope:seek_combat_attacker_bodyguard_4
-						 this = scope:seek_combat_attacker_bodyguard_5
-						 this = scope:seek_combat_attacker_bodyguard_6
-						 this = scope:seek_combat_attacker_bodyguard_7
 				}
 				is_in_army = yes 
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers
@@ -923,12 +854,10 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_attacker_bodyguard_3
 						 this = scope:seek_combat_attacker_bodyguard_4
 						 this = scope:seek_combat_attacker_bodyguard_5
-						 this = scope:seek_combat_attacker_bodyguard_6
-						 this = scope:seek_combat_attacker_bodyguard_7
 				}
 				is_in_army = yes  
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers
@@ -947,11 +876,10 @@ seek_combat_interaction = {
 						 this = scope:seek_combat_attacker_bodyguard_4
 						 this = scope:seek_combat_attacker_bodyguard_5
 						 this = scope:seek_combat_attacker_bodyguard_6
-						 this = scope:seek_combat_attacker_bodyguard_7
 				}
 				is_in_army = yes 
 				NOT = { has_trait = dragonrider }
-			is_at_same_location = scope:recipient
+			is_at_same_location = scope:actor
 			}
 			add_to_list = duel_observers
 				add_to_list = attackers

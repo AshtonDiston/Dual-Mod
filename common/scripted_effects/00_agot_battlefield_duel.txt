@@ -35,7 +35,7 @@ agot_battlefield_duel_combat_effect = {
 agot_battlefield_duel_variable_pull = {
 	story_owner = { save_scope_as = duel_owner }
 	save_scope_as = battlefield_duel_story
-	if = { limit = { exists = var:seek_combat_attacker } var:seek_combat_attacker = { save_scope_as = seek_combat_attacker } }
+	if = { limit = { exists = var:seek_combat_attacker } var:seek_combat_attacker = { save_scope_as = seek_combat_attacker add_to_list = attackers } }
 	if = { limit = { exists = var:defender_home_court } var:defender_home_court = { save_scope_as = defender_home_court } }
 	
 	if = { limit = { exists = var:battle_location } var:battle_location = { save_scope_as = battle_location } }

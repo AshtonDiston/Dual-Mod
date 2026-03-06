@@ -86,7 +86,6 @@
  seek_combat.0009.desc:0 "[sc_loser.GetName] has fallen before me, defeated. [sc_loser.GetSheHe|U] is at my complete mercy."
  seek_combat.0009.a:0 "[sc_loser.GetNamePossessive] path ends here."
  seek_combat.0009.b:0 "Capture them!"
- seek_combat.0009.c:0 "Maester! See to their wounds."
  
  
  seek_combat_interaction:0 "#R Battlefield Duel# "

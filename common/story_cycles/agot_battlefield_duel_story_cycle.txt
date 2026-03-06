@@ -52,8 +52,14 @@
 					var:battlefield_duel = flag:combat
 					NOT = {
 						any_in_list = {
-							variable = battlefield_duel_participants
-							has_variable = engaged_in_single_combat 
+							variable = attackers
+							has_variable = engaged_in_single_combat
+						}
+					}
+					NOT = {
+						any_in_list = {
+							variable = defenders
+							has_variable = engaged_in_single_combat
 						}
 					}
 				}
